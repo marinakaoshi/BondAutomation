@@ -22,5 +22,15 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('https://bond.techstyle.net')
 
-CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://bond.techstyle.net/#/member/tab0')
+
+WebUI.setText(findTestObject('Identity Login/Page_Login/input_username'), 'mnakaoshi-c')
+
+WebUI.setText(findTestObject('Identity Login/Page_Login/input_password'), 'p2ncL3FJ5')
+
+WebUI.click(findTestObject('Identity Login/Page_Login/input_btn btn-block btn-primar'))
+
+WebUI.closeBrowser()
 
