@@ -18,14 +18,7 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUiBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 WebUI.navigateToUrl('https://bond.techstyle.net')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
-
-WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/i_fa fa-search'))
-WebUI.setText(findTestObject('SearchCustomerID/Page_TechStyle Bond/input_searchBox'), '285702967')
-WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/span_ (F3) Cust ID'))
-

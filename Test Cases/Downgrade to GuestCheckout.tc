@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Downgrade to GuestCheckout</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecf70a63-4084-40c7-9d6d-69664a745332</testCaseGuid>
+</TestCaseEntity>

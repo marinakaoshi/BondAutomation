@@ -29,18 +29,11 @@ public class bondAutomation {
 
 	@Keyword
 
-	def identityLoginKey (String msg){
+	def identityLoginKey(){
 		
-		WebUI.navigateToUrl('https://bond.techstyle.net')
 		WebUI.setText(findTestObject('Identity Login/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('Identity Login/Page_Login/input_password'), 'p2ncL3FJ5')
 		WebUI.click(findTestObject('Identity Login/Page_Login/input_btn btn-block btn-primar'))
 	}
 
-	def searchCustomerID (String msg){
-
-		WebUI.click(findTestObject('Search Customer ID/Page_TechStyle Bond/i_fa fa-search'))
-		WebUI.setText(findTestObject('Search Customer ID/Page_TechStyle Bond/input_searchBox'), '285702967')
-		WebUI.click(findTestObject('Search Customer ID/Page_TechStyle Bond/span_ (F3) Cust ID'))
-	}
 }
