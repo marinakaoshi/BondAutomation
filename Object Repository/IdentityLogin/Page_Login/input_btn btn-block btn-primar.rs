@@ -3,7 +3,7 @@
    <description></description>
    <name>input_btn btn-block btn-primar</name>
    <tag></tag>
-   <elementGuidId>ed4460c9-39c0-4263-8b41-6cbb4f3d6c0d</elementGuidId>
+   <elementGuidId>7a497ded-bed2-4903-b0be-a3aa205dec35</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
