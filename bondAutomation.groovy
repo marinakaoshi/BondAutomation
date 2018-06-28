@@ -30,7 +30,8 @@ public class bondAutomation {
 	@Keyword
 
 	def identityLoginKey (String msg){
-
+		
+		WebUI.navigateToUrl('https://bond.techstyle.net')
 		WebUI.setText(findTestObject('Identity Login/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('Identity Login/Page_Login/input_password'), 'p2ncL3FJ5')
 		WebUI.click(findTestObject('Identity Login/Page_Login/input_btn btn-block btn-primar'))
