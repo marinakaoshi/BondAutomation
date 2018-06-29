@@ -21,23 +21,18 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://bond.techstyle.net')
-
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
-
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
-
 WebUI.waitForAngularLoad(5)
 
-if (WebUI.verifyElementPresent(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Guest Checkout'),10, FailureHandling.OPTIONAL)) {
-	
-	WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Guest Checkout'))
-	WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Make Guest'))
-	WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Yes'))
-}
-else{
-	System.out.print("no guestcheckout button")
-}
+if (WebUI.verifyElementPresent(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Guest Checkout'), 10, 
+    FailureHandling.OPTIONAL)) {
+    WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Guest Checkout'))
 
+    WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Make Guest'))
+
+    WebUI.click(findTestObject('DowngradeToGuestCheckout/Page_TechStyle Bond/button_Yes'))
+} else {
+    System.out.print('no guestcheckout button')
+}
 

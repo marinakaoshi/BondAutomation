@@ -29,12 +29,18 @@ public class bondAutomation {
 
 	@Keyword
 
+	//UPDATE URL FOR:
+	//QA: https://bond-qa3.techstyle.net
+	//Staging: https://bond-staging.techstyle.net
+	//UPDATE THE USERNAME AND PASSWORD
 	def identityLoginKey (String msg){
+		WebUI.navigateToUrl('https://bond.techstyle.net')
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), 'p2ncL3FJ5')
 		WebUI.click(findTestObject('IdentityLogin/Page_Login/input_btn btn-block btn-primar'))
 	}
-
+	
+	//UPDATE THE CUSTOMER ID FOR DIFFERENT ENVIRONMENTS
 	def searchCustomerID (String msg){
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/i_fa fa-search'))
 		WebUI.setText(findTestObject('SearchCustomerID/Page_TechStyle Bond/input_searchBox'), '285702967')

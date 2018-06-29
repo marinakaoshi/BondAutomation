@@ -21,8 +21,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
-WebUI.navigateToUrl('https://bond.techstyle.net')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 

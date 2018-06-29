@@ -22,6 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
+CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 
+WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/button_Reactivate'))
 
+WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/button_Yes'))
+
+WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/div_The Member has been reacti'))
+
+WebUI.closeBrowser()
 

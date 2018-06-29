@@ -22,6 +22,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
+CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 
+WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel'))
 
+WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel_1'))
+
+WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Yes'))
+
+WebUI.closeBrowser()
 
