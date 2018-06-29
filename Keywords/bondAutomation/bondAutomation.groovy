@@ -26,15 +26,15 @@ import WSBuiltInKeywords as WS
 import WebUiBuiltInKeywords as WebUI
 
 public class bondAutomation {
-	
+
 	@Keyword
-	
+
 	def identityLoginKey (String msg){
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), 'p2ncL3FJ5')
 		WebUI.click(findTestObject('IdentityLogin/Page_Login/input_btn btn-block btn-primar'))
 	}
-	
+
 	def searchCustomerID (String msg){
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/i_fa fa-search'))
 		WebUI.setText(findTestObject('SearchCustomerID/Page_TechStyle Bond/input_searchBox'), '285702967')
