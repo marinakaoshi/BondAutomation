@@ -23,29 +23,15 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
+CustomKeywords.'bondAutomation.bondAutomation.clickVIPComp'('')
 
-if (WebUI.verifyElementPresent(findTestObject('Reactivate Account/Page_TechStyle Bond/button_Reactivate'), 10,
-	FailureHandling.OPTIONAL)) {
-		
-		WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/button_Reactivate'))
-		WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/button_Yes'))
-		
-		if (WebUI.verifyElementPresent(findTestObject('Reactivate Account/Page_TechStyle Bond/div_The Member has been reacti'), 10,
-			FailureHandling.OPTIONAL)){
-			
-			WebUI.click(findTestObject('Reactivate Account/Page_TechStyle Bond/div_The Member has been reacti'))
-		}
-		else{
-			System.out.print('no successful reactivate message')
-			}
-		
-} else {
-	System.out.print('no reactivate button')
-}
+currDate = new Date()
 
-
-
-
-
-
+WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/div_10 Off One Item'))
+WebUI.selectOptionByValue(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
+    true)
+WebUI.setText(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/textarea_comment'), 'test add 10 off for automation ' +currDate)
+WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/button_Submit'))
+WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/button_Ok'))
+WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/div_10 Off One Item added succ'))
 

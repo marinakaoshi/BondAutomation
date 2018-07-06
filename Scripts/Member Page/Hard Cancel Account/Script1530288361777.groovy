@@ -24,11 +24,19 @@ WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 
-WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel'))
+if (WebUI.verifyElementPresent(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel'), 10,
+	FailureHandling.OPTIONAL)) {
+		
+		WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel'))
+		WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel_1'))
+		WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Yes'))
+		
+} else {
+	System.out.print('no hard cancel button')
+}
 
-WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Hard Cancel_1'))
 
-WebUI.click(findTestObject('Hard Cancel Account/Page_TechStyle Bond/button_Yes'))
 
-WebUI.closeBrowser()
+
+
 
