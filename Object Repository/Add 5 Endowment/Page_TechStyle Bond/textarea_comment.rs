@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_mgrInput</name>
+   <name>textarea_comment</name>
    <tag></tag>
-   <elementGuidId>5f07e6a7-643a-4a28-9c3e-76239bcedc74</elementGuidId>
+   <elementGuidId>3f98735b-a6eb-4c03-8415-d65386a10d72</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,63 +11,42 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>name</name>
       <type>Main</type>
-      <value>password</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>mgrInput</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>mgr code</value>
+      <value>comment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>mgrCodeVar.mgrCode</value>
+      <value>vipCompensationCtrl.comment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>maxlength</name>
+      <name>cols</name>
       <type>Main</type>
-      <value>5</value>
+      <value>50</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-change</name>
+      <name>rows</name>
       <type>Main</type>
-      <value>typeChange()</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-keypress</name>
-      <type>Main</type>
-      <value>mgrCodeVar.enterKeyPress($event)</value>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add</value>
+      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -81,6 +60,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;mgrInput&quot;)</value>
+      <value>id(&quot;compensation_reason_form&quot;)/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-xs-12&quot;]/textarea[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

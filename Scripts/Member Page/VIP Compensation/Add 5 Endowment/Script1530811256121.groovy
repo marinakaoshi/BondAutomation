@@ -21,42 +21,22 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
-
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
-
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
-
 CustomKeywords.'bondAutomation.bondAutomation.clickVIPComp'('')
-
 currDate = new Date()
 
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_5 Endowment'))
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/div_5 Endowment'))
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/input_submit'))
 
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/input_submit'))
+CustomKeywords.'bondAutomation.bondAutomation.getManagerCode'('Add 5 Endowment/Page_TechStyle Bond/input_mgrInput')
 
-WebUI.verifyElementPresent(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_Manager CodeOK'), 5)
 
-//WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_Manager CodeOK'))
-WebUI.doubleClick(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/input_mgrInput'), FailureHandling.STOP_ON_FAILURE)
-
-WebUI.setText(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/input_mgrInput'), '46224')
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/button_OK'))
-
-WebUI.selectOptionByValue(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_OK'))
+WebUI.selectOptionByValue(findTestObject('Add 5 Endowment/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
     true)
-
-WebUI.setText(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/textarea_comment'), 'test add')
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/button_Submit'))
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_OkCancel'))
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_ConfirmAre you sure you wa'))
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/button_Ok (1)'))
-
-WebUI.click(findTestObject('Add 5 Endowment 2/Page_TechStyle Bond/div_5 Endowment added successf'))
-
-WebUI.closeBrowser()
+WebUI.setText(findTestObject('Add 5 Endowment/Page_TechStyle Bond/textarea_comment'), 'test add for automation' +currDate)
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_Submit'))
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_Ok (1)'))
+WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/div_5 Endowment added successf'))
 

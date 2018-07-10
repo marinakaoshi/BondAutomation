@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Submit</name>
+   <name>button_Ok (1)</name>
    <tag></tag>
-   <elementGuidId>5a1e1b1f-d9a7-4f6f-a37d-8b404e2eb889</elementGuidId>
+   <elementGuidId>a72fb8d3-773a-4815-87d0-7ff80ac14584</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,34 +18,34 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
-      <type>Main</type>
-      <value>vipCompensationCtrl.op1Submit</value>
+      <value>button</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-default ng-pristine ng-untouched ng-valid ng-empty</value>
+      <value>btn btn-primary</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-click</name>
+      <type>Main</type>
+      <value>confirm(1)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Submit</value>
+      <value>Ok</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compensation_reason_form&quot;)/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-2 col-xs-offset-5&quot;]/button[@class=&quot;btn btn-default ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
+      <value>id(&quot;ngdialog2&quot;)/div[@class=&quot;ngdialog-content&quot;]/div[@class=&quot;panel panel-dull&quot;]/div[@class=&quot;panel-footer clearfix&quot;]/div[@class=&quot;col-md-12 text-center&quot;]/button[@class=&quot;btn btn-primary&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -63,12 +63,11 @@ public class bondAutomation {
 			WebUI.waitForAngularLoad(5)
 		}
 		
-	//
+	// Input Manager Code
 		def getManagerCode (String msg){
-			WebUI.waitForAngularLoad(5)
-			WebUI.setText(findTestObject('Add 5 Endowment/Page_TechStyle Bond/input_mgrInput'), "46224")
 			
-			//WebUI.setText(findTestObject(msg), "46224" )
+			System.out.print(msg);
+			WebUI.setText(findTestObject(msg), '46224')
 		}	
 }
 

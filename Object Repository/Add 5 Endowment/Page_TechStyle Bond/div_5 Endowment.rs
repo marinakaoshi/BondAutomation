@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_ConfirmAre you sure you wa</name>
+   <name>div_5 Endowment</name>
    <tag></tag>
-   <elementGuidId>05233817-0d03-47bc-8e3e-f84d616dfbff</elementGuidId>
+   <elementGuidId>97498481-53ff-4fd3-8749-296cddf8cd1b</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -18,20 +18,20 @@
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel panel-dull</value>
+      <value>col-xs-9 text-left text-padding-5</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value> Confirm!Are you sure you want to issue this compensation to a customer?Ok  Cancel</value>
+      <value>$5 Endowment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ngdialog2&quot;)/div[@class=&quot;ngdialog-content&quot;]/div[@class=&quot;panel panel-dull&quot;]</value>
+      <value>id(&quot;tab0&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12 option-list vip-border&quot;]/div[3]/button[@class=&quot;option-btn_odd col-xs-12&quot;]/div[@class=&quot;col-xs-9 text-left text-padding-5&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

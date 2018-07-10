@@ -1,52 +1,79 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>select_- Select Reason -Poor M</name>
+   <name>input_mgrInput</name>
    <tag></tag>
-   <elementGuidId>d5936533-325f-49a0-84ed-3f4db19d9808</elementGuidId>
+   <elementGuidId>159e14fd-05b4-4512-98f4-7724142d17b0</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;mgrInput&quot;]</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>select</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>reason</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-options</name>
+      <name>type</name>
       <type>Main</type>
-      <value>choices.id as choices.text for choices in vipCompensationCtrl.choices</value>
+      <value>password</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>mgrInput</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>placeholder</name>
+      <type>Main</type>
+      <value>mgr code</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>vipCompensationCtrl.reason</value>
+      <value>mgrCodeVar.mgrCode</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>required</name>
+      <name>maxlength</name>
       <type>Main</type>
-      <value>required</value>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>typeChange()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-keypress</name>
+      <type>Main</type>
+      <value>mgrCodeVar.enterKeyPress($event)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove</value>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,15 +85,8 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>- Select Reason -Poor Member ServiceProduct IssueSave IncentiveShipping Issue</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;compensation_reason_form&quot;)/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-md-5&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-xs-12&quot;]/select[@class=&quot;form-control ng-pristine ng-untouched ng-empty ng-invalid ng-invalid-required ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-required-add ng-invalid-required-remove&quot;]</value>
+      <value>//*[@id=&quot;mgrInput&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

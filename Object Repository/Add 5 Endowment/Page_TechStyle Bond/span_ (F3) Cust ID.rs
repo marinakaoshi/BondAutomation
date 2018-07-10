@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_submit</name>
+   <name>span_ (F3) Cust ID</name>
    <tag></tag>
-   <elementGuidId>cb9fc3b8-b121-4f4f-b1ed-b14c8a8634b4</elementGuidId>
+   <elementGuidId>44ee4203-62d6-45bf-bab0-d41d687ef39f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,48 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>span</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>id</name>
       <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>name</name>
-      <type>Main</type>
-      <value>submit</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>value</name>
-      <type>Main</type>
-      <value>Apply</value>
+      <value>f3</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-click</name>
       <type>Main</type>
-      <value>vipCompensationCtrl.managerApproval()</value>
+      <value>TopNavCtrl.lookup('customer');topNavMemberSearch='';</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-default</value>
+      <value>fkeys</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>  (F3) Cust ID</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab0&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-2 col-xs-offset-5&quot;]/input[@class=&quot;btn btn-default&quot;]</value>
+      <value>id(&quot;f3&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

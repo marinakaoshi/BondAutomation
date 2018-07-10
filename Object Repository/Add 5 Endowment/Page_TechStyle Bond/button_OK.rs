@@ -3,7 +3,7 @@
    <description></description>
    <name>button_OK</name>
    <tag></tag>
-   <elementGuidId>9c83c1db-491c-445f-a400-99620235020c</elementGuidId>
+   <elementGuidId>df330668-9729-443b-8660-09dd8d4051dd</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>

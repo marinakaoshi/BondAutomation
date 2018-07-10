@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_VIP Compensation</name>
+   <name>div_5 Endowment added successf</name>
    <tag></tag>
-   <elementGuidId>0665c44a-96b6-4d67-ab3f-d212d4c205b2</elementGuidId>
+   <elementGuidId>c34f0d22-3bfb-412f-930f-da10b8198500</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,20 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>span</value>
+      <value>div</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>VIP Compensation</value>
+      <value>$5 Endowment added successfully.</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;layout-fixed&quot;]/div[@class=&quot;wrapper&quot;]/aside[@class=&quot;aside&quot;]/div[@class=&quot;aside-inner&quot;]/nav[@class=&quot;sidebar&quot;]/ul[@class=&quot;nav&quot;]/li[2]/ul[@class=&quot;nav sidebar-subnav in collapse&quot;]/li[5]/a[1]/span[1]</value>
+      <value>/html[1]/body[@class=&quot;layout-fixed&quot;]/div[@class=&quot;uk-notify uk-notify-bottom-right&quot;]/div[@class=&quot;uk-notify-message alert-dismissable alert alert-success&quot;]/div[1]</value>
    </webElementProperties>
 </WebElementEntity>

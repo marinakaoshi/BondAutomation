@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_username</name>
+   <name>input_searchBox</name>
    <tag></tag>
-   <elementGuidId>74653736-63ed-4318-9c54-880549b0e6ad</elementGuidId>
+   <elementGuidId>e3aa31a9-e4f7-4530-9cdb-4c10145dec78</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -16,13 +16,6 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
-      <type>Main</type>
-      <value>username</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
@@ -30,36 +23,64 @@
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>id</name>
       <type>Main</type>
-      <value>username</value>
+      <value>searchBox</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Enter username</value>
+      <value>Member Search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>autocomplete</name>
+      <name>ng-keyup</name>
       <type>Main</type>
-      <value>off</value>
+      <value>TopNavCtrl.testingFunction($event);TopNavCtrl.navSearchHide($event);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-focus</name>
+      <type>Main</type>
+      <value>TopNavCtrl.topNavBarSearch(true);</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-blur</name>
+      <type>Main</type>
+      <value>TopNavCtrl.topNavBarSearch(false)</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>TopNavCtrl.searchData.topNavCurrSearchStr</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control</value>
+      <value>ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-animate</name>
+      <type>Main</type>
+      <value>2</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;username&quot;)</value>
+      <value>id(&quot;searchBox&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

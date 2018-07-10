@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_5 Endowment added successf</name>
+   <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>088ad445-d389-49dd-a136-aad97bccd0a6</elementGuidId>
+   <elementGuidId>7285b021-928b-4b15-8652-71613df9752c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,41 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-model</name>
+      <type>Main</type>
+      <value>vipCompensationCtrl.op1Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>uk-notify-message alert-dismissable alert alert-success</value>
+      <value>btn btn-default ng-pristine ng-untouched ng-valid ng-empty</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>×$5 Endowment added successfully.</value>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;layout-fixed&quot;]/div[@class=&quot;uk-notify uk-notify-bottom-right&quot;]/div[@class=&quot;uk-notify-message alert-dismissable alert alert-success&quot;]</value>
+      <value>id(&quot;compensation_reason_form&quot;)/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-xs-2 col-xs-offset-5&quot;]/button[@class=&quot;btn btn-default ng-pristine ng-untouched ng-valid ng-empty&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

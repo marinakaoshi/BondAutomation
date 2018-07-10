@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_OkCancel</name>
+   <name>input_btn btn-block btn-primar</name>
    <tag></tag>
-   <elementGuidId>9be4301d-ce03-41fd-867c-291abbb1a22d</elementGuidId>
+   <elementGuidId>cce3d34a-7546-4af6-a547-ff2d8195bf9f</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>input</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>value</name>
+      <type>Main</type>
+      <value>Login</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>panel-footer clearfix</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>Ok  Cancel</value>
+      <value>btn btn-block btn-primary mt-lg</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ngdialog2&quot;)/div[@class=&quot;ngdialog-content&quot;]/div[@class=&quot;panel panel-dull&quot;]/div[@class=&quot;panel-footer clearfix&quot;]</value>
+      <value>/html[1]/body[1]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;block-center mt-xl wd-xl&quot;]/div[@class=&quot;panel panel-default panel-flat&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-validate mb-lg&quot;]/input[@class=&quot;btn btn-block btn-primary mt-lg&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

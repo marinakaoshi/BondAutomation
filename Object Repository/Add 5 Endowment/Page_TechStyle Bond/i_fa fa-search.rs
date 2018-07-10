@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>div_5 Endowment</name>
+   <name>i_fa fa-search</name>
    <tag></tag>
-   <elementGuidId>cc9bd52a-4fb9-4cd6-afd1-6dc28bf5ca9b</elementGuidId>
+   <elementGuidId>edead388-9ae0-48b5-ac7a-be28568c0c9e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
@@ -11,27 +11,20 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>div</value>
+      <value>i</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>col-xs-9 text-left text-padding-5</value>
+      <value>fa fa-search</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>text</name>
-      <type>Main</type>
-      <value>$5 Endowment</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;tab0&quot;)/div[@class=&quot;row&quot;]/div[@class=&quot;col-xs-12&quot;]/div[@class=&quot;col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 col-xs-12 option-list vip-border&quot;]/div[3]/button[@class=&quot;option-btn_odd col-xs-12&quot;]/div[@class=&quot;col-xs-9 text-left text-padding-5&quot;]</value>
+      <value>id(&quot;custom_tabs&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;topbar-search-box&quot;]/div[@class=&quot;icon&quot;]/i[@class=&quot;fa fa-search&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

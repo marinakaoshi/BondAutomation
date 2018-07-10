@@ -20,12 +20,13 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+
 WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 CustomKeywords.'bondAutomation.bondAutomation.clickVIPComp'('')
-
 currDate = new Date()
+
 
 WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/div_10 Off One Item'))
 WebUI.selectOptionByValue(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
