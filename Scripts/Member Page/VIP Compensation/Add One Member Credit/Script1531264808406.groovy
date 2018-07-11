@@ -26,17 +26,20 @@ CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
 CustomKeywords.'bondAutomation.bondAutomation.clickVIPComp'('')
 currDate = new Date()
 
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/div_5 Endowment'))
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/input_submit'))
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/div_One Member Credit'))
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/input_submit'))
 
-CustomKeywords.'bondAutomation.bondAutomation.getManagerCode'('Add 5 Endowment/Page_TechStyle Bond/input_mgrInput')
+CustomKeywords.'bondAutomation.bondAutomation.getManagerCode'('Add One Member Credit/Page_TechStyle Bond/input_mgrInput')
 
 
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_OK'))
-WebUI.selectOptionByValue(findTestObject('Add 5 Endowment/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/button_OK'))
+WebUI.selectOptionByValue(findTestObject('Add One Member Credit/Page_TechStyle Bond/select_- Select Reason -Poor M'), 'number:4', 
     true)
-WebUI.setText(findTestObject('Add 5 Endowment/Page_TechStyle Bond/textarea_comment'), 'test add 5 endowment for automation ' +currDate)
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_Submit'))
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/button_Ok (1)'))
-WebUI.click(findTestObject('Add 5 Endowment/Page_TechStyle Bond/div_5 Endowment added successf'))
+WebUI.setText(findTestObject('Add One Member Credit/Page_TechStyle Bond/textarea_comment'), 'test add one member credit automation '+currDate)
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/button_Submit'))
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/button_Ok (1)'))
+
+WebUI.click(findTestObject('Add One Member Credit/Page_TechStyle Bond/div_One Member Credit added su'))
+
+
 
