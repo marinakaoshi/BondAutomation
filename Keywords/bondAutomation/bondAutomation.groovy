@@ -34,42 +34,41 @@ public class bondAutomation {
 	//Staging: https://bond-staging.techstyle.net
 	//UPDATE THE USERNAME AND PASSWORD
 	def identityLoginKey (String msg){
-		// QA 
+		// QA
 		//WebUI.navigateToUrl('https://bond-qa3.techstyle.net/')
-		// Staging 
+		// Staging
 		//WebUI.navigateToUrl('https://bond-staging.techstyle.net')
 		//Prod
 		WebUI.navigateToUrl('https://bond.techstyle.net')
-		
+
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), 'p2ncL3FJ5')
 		WebUI.click(findTestObject('IdentityLogin/Page_Login/input_btn btn-block btn-primar'))
 	}
-	
+
 	//UPDATE THE CUSTOMER ID FOR DIFFERENT ENVIRONMENTS
 	def searchCustomerID (String msg){
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/i_fa fa-search'))
 		WebUI.setText(findTestObject('SearchCustomerID/Page_TechStyle Bond/input_searchBox'), '285702967')
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/span_ (F3) Cust ID'))
 	}
-	
+
 	//Actions from Any Page to VIP Comp
-	
-		def clickVIPComp (String msg){
-			WebUI.waitForAngularLoad(5)
-			WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/span_Member'))
-			WebUI.waitForAngularLoad(5)
-			WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/span_VIP Compensation'))
-			WebUI.waitForAngularLoad(5)
-		}
-		
+
+	def clickVIPComp (String msg){
+		WebUI.waitForAngularLoad(5)
+		WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/span_Member'))
+		WebUI.waitForAngularLoad(5)
+		WebUI.click(findTestObject('Add 10 Off One Item/Page_TechStyle Bond/span_VIP Compensation'))
+		WebUI.waitForAngularLoad(5)
+	}
+
 	// Input Manager Code
-		def getManagerCode (String msg){
-			
-			System.out.print(msg);
-			WebUI.setText(findTestObject(msg), '46224')
-		}	
+	def getManagerCode (String msg){
+
+		System.out.print(msg);
+		WebUI.setText(findTestObject(msg), '46224')
+	}
 }
 
 
-	
