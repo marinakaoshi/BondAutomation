@@ -1,71 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_comment</name>
+   <name>input_username</name>
    <tag></tag>
-   <elementGuidId>1574a11a-6c39-41b2-b324-8f9be4991d22</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[1]/div[2]/form/div[3]/div[2]/textarea</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>c99f4aee-e193-40e4-8457-2d9ac6575490</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xstyle</name>
+      <name>id</name>
       <type>Main</type>
-      <value>width:190px</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>name</name>
       <type>Main</type>
-      <value>comment</value>
+      <value>username</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Reason</value>
+      <value>Enter username</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>ng-model</name>
+      <name>autocomplete</name>
       <type>Main</type>
-      <value>memberInfo.creditInformation.memberCredit.editComment</value>
+      <value>off</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
+      <value>form-control</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>data-ng-animate</name>
-      <type>Main</type>
-      <value>2</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[1]/div[2]/form/div[3]/div[2]/textarea</value>
+      <value>id(&quot;username&quot;)</value>
    </webElementProperties>
 </WebElementEntity>

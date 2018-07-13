@@ -3,7 +3,7 @@
    <description></description>
    <name>textarea_comment</name>
    <tag></tag>
-   <elementGuidId>1574a11a-6c39-41b2-b324-8f9be4991d22</elementGuidId>
+   <elementGuidId>77ff2485-4e66-4873-bc48-5beb59189183</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>

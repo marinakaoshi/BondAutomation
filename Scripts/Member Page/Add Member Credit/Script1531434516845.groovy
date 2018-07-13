@@ -23,35 +23,21 @@ import org.openqa.selenium.Keys as Keys
 WebUI.openBrowser('')
 CustomKeywords.'bondAutomation.bondAutomation.identityLoginKey'('')
 CustomKeywords.'bondAutomation.bondAutomation.searchCustomerID'('')
-
 WebUI.waitForAngularLoad(5)
 
-checkMC = WebUI.getText(findTestObject('Remove Member Credit/Page_TechStyle Bond/a_4159.80'))
+WebUI.click(findTestObject('Add Member Credit/Page_TechStyle Bond/a_00.00'))
+WebUI.delay(5)
+WebUI.click(findTestObject('Add Member Credit/Page_TechStyle Bond/a_00.00_1'))
+WebUI.selectOptionByValue(findTestObject('Add Member Credit/Page_TechStyle Bond/select_Select...AddRemoveConve'), 'add', 
+    true)
+WebUI.selectOptionByValue(findTestObject('Add Member Credit/Page_TechStyle Bond/select_Select a Reason15 - Man'), '15', 
+    true)
+WebUI.setText(findTestObject('Add Member Credit/Page_TechStyle Bond/textarea_comment'), 'test')
+WebUI.click(findTestObject('Add Member Credit/Page_TechStyle Bond/button_Submit'))
 
-checkMC = checkMC.substring(0, 1).trim()
+CustomKeywords.'bondAutomation.bondAutomation.getManagerCode'('Add Member Credit/Page_TechStyle Bond/input_mgrInput')
 
-if (checkMC=='0'){
-	System.out.print("No MC on account")
-}
-
-else{
-	WebUI.click(findTestObject('Remove Member Credit/Page_TechStyle Bond/a_4159.80'))
-	WebUI.delay(5)
-	WebUI.click(findTestObject('Remove Member Credit/Page_TechStyle Bond/a_4159.80_1'))
-	WebUI.selectOptionByValue(findTestObject('Remove Member Credit/Page_TechStyle Bond/select_Select...AddRemoveConve'),
-		'remove', true)
-	WebUI.selectOptionByValue(findTestObject('Remove Member Credit/Page_TechStyle Bond/select_Select a Reason300 - Ma'),
-		'300', true)
-	WebUI.delay(5)
-	WebUI.setText(findTestObject('Remove Member Credit/Page_TechStyle Bond/textarea_comment'), 'test')
-	WebUI.click(findTestObject('Remove Member Credit/Page_TechStyle Bond/button_Submit'))
-	
-	CustomKeywords.'bondAutomation.bondAutomation.getManagerCode'('Remove Member Credit/Page_TechStyle Bond/input_mgrInput')
-	
-	WebUI.click(findTestObject('Remove Member Credit/Page_TechStyle Bond/button_OK'))
-	WebUI.click(findTestObject('Remove Member Credit/Page_TechStyle Bond/div_1 member credits (39.95) h'))
-}
-
-
+WebUI.click(findTestObject('Add Member Credit/Page_TechStyle Bond/button_OK'))
+WebUI.click(findTestObject('Add Member Credit/Page_TechStyle Bond/div_1 member credits (39.95) h'))
 
 
