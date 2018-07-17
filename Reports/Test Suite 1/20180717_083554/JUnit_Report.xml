@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="10" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="1" failures="0" errors="0" time="10" timestamp="2018-07-17 08:35:57" hostname="MARI - DESKTOP-ROILQTF" id="Test Suites/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Katalon Automation\\git\\BondAutomation\\Reports\\Test Suite 1\\20180717_083554"/>
+         <property name="logFiles" value="D:\\Katalon Automation\\git\\BondAutomation\\Reports\\Test Suite 1\\20180717_083554\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="MARI - DESKTOP-ROILQTF"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.4.2.1"/>
+         <property name="browser" value="Chrome 67.0.3396.99"/>
+         <property name="hostAddress" value="10.10.0.160"/>
+         <property name="sessionId" value="3fe398673d1790073613466c0f0d04f6"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Identity Login" classname="Test Cases/Identity Login" status="PASSED">
+         <system-out><![CDATA[2018-07-17 08:35:57 - [TEST_CASE][PASSED] - Test Cases/Identity Login: Test Cases/Identity Login
+
+2018-07-17 08:35:57 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-07-17 08:36:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-07-17 08:36:01 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'https://bond.techstyle.net' successfully
+
+2018-07-17 08:36:03 - [MESSAGE][PASSED] - Navigate to 'https://bond.techstyle.net' successfully
+
+2018-07-17 08:36:03 - [TEST_STEP][PASSED] - setText: Text 'mnakaoshi-c' is set on object 'Object Repository/IdentityLogin/Page_Login/input_username'
+
+2018-07-17 08:36:06 - [MESSAGE][PASSED] - Text 'mnakaoshi-c' is set on object 'Object Repository/IdentityLogin/Page_Login/input_username'
+
+2018-07-17 08:36:06 - [TEST_STEP][PASSED] - setText: Text 'p2ncL3FJ5' is set on object 'Object Repository/IdentityLogin/Page_Login/input_password'
+
+2018-07-17 08:36:06 - [MESSAGE][PASSED] - Text 'p2ncL3FJ5' is set on object 'Object Repository/IdentityLogin/Page_Login/input_password'
+
+2018-07-17 08:36:06 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/IdentityLogin/Page_Login/input_btn btn-block btn-primar' is clicked on
+
+2018-07-17 08:36:07 - [MESSAGE][PASSED] - Object: 'Object Repository/IdentityLogin/Page_Login/input_btn btn-block btn-primar' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-07-17 08:35:57 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Identity Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -18,6 +18,7 @@ import com.kms.katalon.core.testobject.ObjectRepository
 import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
+import com.kms.katalon.core.testdata.ExcelData as ExcelData
 
 import internal.GlobalVariable
 
@@ -34,6 +35,9 @@ public class bondAutomation {
 	//Staging: https://bond-staging.techstyle.net
 	//UPDATE THE USERNAME AND PASSWORD
 	def identityLoginKey (String msg){
+		
+		ExcelData data = findTestData("Login_Data")
+		
 		// QA
 		//WebUI.navigateToUrl('https://bond-qa3.techstyle.net/')
 		// Staging
@@ -43,8 +47,8 @@ public class bondAutomation {
 		//Training Link
 		//WebUI.navigateToUrl('https://bond-training.techstyle.net/')
 
-		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), 'mnakaoshi-c')
-		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), 'p2ncL3FJ5')
+		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), data.internallyGetValue("username", 0))
+		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), data.internallyGetValue("password", 0))
 		WebUI.click(findTestObject('IdentityLogin/Page_Login/input_btn btn-block btn-primar'))
 	}
 
@@ -69,8 +73,10 @@ public class bondAutomation {
 	// Input Manager Code
 	def getManagerCode (String msg){
 
-		System.out.print(msg);
-		WebUI.setText(findTestObject(msg), '46224')
+		ExcelData data = findTestData("ManagerCode_Data")
+		
+		
+		WebUI.setText(findTestObject(msg), data.internallyGetValue("managercode", 0))
 	}
 }
 
