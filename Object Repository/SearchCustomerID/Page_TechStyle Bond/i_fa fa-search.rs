@@ -4,10 +4,16 @@
    <name>i_fa fa-search</name>
    <tag></tag>
    <elementGuidId>c30785f0-ac29-42a7-a6d2-b0f144742638</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id=&quot;custom_tabs&quot;]/ul/li[2]/div[1]/i</value>
+      </entry>
+   </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -25,6 +31,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;custom_tabs&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;topbar-search-box&quot;]/div[@class=&quot;icon&quot;]/i[@class=&quot;fa fa-search&quot;]</value>
+      <value>//*[@id=&quot;custom_tabs&quot;]/ul/li[2]/div[1]/i</value>
    </webElementProperties>
 </WebElementEntity>

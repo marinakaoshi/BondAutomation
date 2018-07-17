@@ -1,79 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_searchBox</name>
+   <name>input_amount</name>
    <tag></tag>
-   <elementGuidId>077b09c7-51a3-4cb3-8df9-93ea2ea1df78</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;searchBox&quot;]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>6434a6e0-594e-4333-8360-90c780098d21</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
       <value>text</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>searchBox</value>
+      <value>amount</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Member Search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-keyup</name>
-      <type>Main</type>
-      <value>TopNavCtrl.testingFunction($event);TopNavCtrl.navSearchHide($event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(true);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(false)</value>
+      <value>Amount</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>TopNavCtrl.searchData.topNavCurrSearchStr</value>
+      <value>memberInfo.creditInformation.storeCredit.editAmount</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>required</name>
+      <type>Main</type>
+      <value>required</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-pattern</name>
+      <type>Main</type>
+      <value>/^((?!0*(\.0+)?$)[0-9]{0,3}(\.\d{1,2})?|1000|1000\.00)$/</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
+      <value>form-control ng-pristine ng-untouched ng-not-empty ng-valid-required ng-invalid ng-invalid-pattern ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-pattern-add ng-invalid-pattern-remove</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -83,10 +70,10 @@
       <value>2</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <value>id(&quot;ngdialog1&quot;)/div[@class=&quot;ngdialog-content&quot;]/div[@class=&quot;panel panel-dull&quot;]/div[@class=&quot;panel-body&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-12&quot;]/div[1]/div[@class=&quot;tab-content&quot;]/div[@class=&quot;tab-pane active&quot;]/div[@class=&quot;panel panel-default panel-body&quot;]/form[@class=&quot;form-xinline ng-pristine ng-invalid ng-invalid-pattern ng-invalid-required ng-dirty-add ng-valid-parse-add ng-valid-pattern-add ng-invalid-pattern-remove ng-animate ng-pristine-remove&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-offset-1 col-md-2 form-group&quot;]/input[@class=&quot;form-control ng-pristine ng-untouched ng-not-empty ng-valid-required ng-invalid ng-invalid-pattern ng-dirty-add ng-valid-parse-add ng-valid-add ng-invalid-remove ng-valid-pattern-add ng-invalid-pattern-remove&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

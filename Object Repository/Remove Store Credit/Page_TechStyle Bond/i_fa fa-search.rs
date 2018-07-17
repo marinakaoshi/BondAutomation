@@ -3,17 +3,11 @@
    <description></description>
    <name>i_fa fa-search</name>
    <tag></tag>
-   <elementGuidId>4b63b9fe-5f37-46f0-a7d8-722ee44d19e1</elementGuidId>
-   <selectorCollection>
-      <entry>
-         <key>BASIC</key>
-         <value>//*[@id=&quot;searchBox&quot;]</value>
-      </entry>
-   </selectorCollection>
+   <elementGuidId>d8f40dc0-590e-4f0d-a4c5-4319152a044e</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
@@ -31,6 +25,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <value>id(&quot;custom_tabs&quot;)/ul[@class=&quot;nav nav-tabs&quot;]/li[@class=&quot;topbar-search-box&quot;]/div[@class=&quot;icon&quot;]/i[@class=&quot;fa fa-search&quot;]</value>
    </webElementProperties>
 </WebElementEntity>

@@ -40,6 +40,8 @@ public class bondAutomation {
 		//WebUI.navigateToUrl('https://bond-staging.techstyle.net')
 		//Prod
 		WebUI.navigateToUrl('https://bond.techstyle.net')
+		//Training Link
+		//WebUI.navigateToUrl('https://bond-training.techstyle.net/')
 
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_username'), 'mnakaoshi-c')
 		WebUI.setText(findTestObject('IdentityLogin/Page_Login/input_password'), 'p2ncL3FJ5')
@@ -48,6 +50,7 @@ public class bondAutomation {
 
 	//UPDATE THE CUSTOMER ID FOR DIFFERENT ENVIRONMENTS
 	def searchCustomerID (String msg){
+		WebUI.waitForAngularLoad(5)
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/i_fa fa-search'))
 		WebUI.setText(findTestObject('SearchCustomerID/Page_TechStyle Bond/input_searchBox'), '285702967')
 		WebUI.click(findTestObject('SearchCustomerID/Page_TechStyle Bond/span_ (F3) Cust ID'))

@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>i_fa fa-search</name>
+   <name>button_Submit</name>
    <tag></tag>
-   <elementGuidId>4b63b9fe-5f37-46f0-a7d8-722ee44d19e1</elementGuidId>
+   <elementGuidId>0351c1b9-ed4e-4b88-89cd-fe8b61c5051a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;searchBox&quot;]</value>
+         <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/form/div[3]/div[1]/button</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,20 +17,34 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>i</value>
+      <value>button</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>fa fa-search</value>
+      <value>btn btn-primary btn-block</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Submit</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/form/div[3]/div[1]/button</value>
    </webElementProperties>
 </WebElementEntity>

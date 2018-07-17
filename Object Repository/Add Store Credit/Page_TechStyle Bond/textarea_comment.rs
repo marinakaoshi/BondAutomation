@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_searchBox</name>
+   <name>textarea_comment</name>
    <tag></tag>
-   <elementGuidId>077b09c7-51a3-4cb3-8df9-93ea2ea1df78</elementGuidId>
+   <elementGuidId>bcc50011-6615-4e93-8180-47081e861463</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;searchBox&quot;]</value>
+         <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/form/div[3]/div[2]/textarea</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -17,63 +17,42 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>input</value>
+      <value>textarea</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>type</name>
+      <name>xstyle</name>
       <type>Main</type>
-      <value>text</value>
+      <value>width:190px</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>name</name>
       <type>Main</type>
-      <value>searchBox</value>
+      <value>comment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Member Search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-keyup</name>
-      <type>Main</type>
-      <value>TopNavCtrl.testingFunction($event);TopNavCtrl.navSearchHide($event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(true);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(false)</value>
+      <value>Reason</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>TopNavCtrl.searchData.topNavCurrSearchStr</value>
+      <value>memberInfo.creditInformation.storeCredit.editComment</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,6 +66,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <value>//*[@id=&quot;ngdialog1&quot;]/div[2]/div/div[2]/div/div/div/div/div[2]/div[2]/form/div[3]/div[2]/textarea</value>
    </webElementProperties>
 </WebElementEntity>

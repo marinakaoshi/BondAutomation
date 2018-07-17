@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_searchBox</name>
+   <name>input_mgrInput</name>
    <tag></tag>
-   <elementGuidId>077b09c7-51a3-4cb3-8df9-93ea2ea1df78</elementGuidId>
+   <elementGuidId>13978a09-50bc-4778-a489-db7205239574</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id=&quot;searchBox&quot;]</value>
+         <value>//*[@id=&quot;mgrInput&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -24,56 +24,56 @@
       <matchCondition>equals</matchCondition>
       <name>type</name>
       <type>Main</type>
-      <value>text</value>
+      <value>password</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>searchBox</value>
+      <value>mgrInput</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>placeholder</name>
       <type>Main</type>
-      <value>Member Search</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-keyup</name>
-      <type>Main</type>
-      <value>TopNavCtrl.testingFunction($event);TopNavCtrl.navSearchHide($event);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-focus</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(true);</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>ng-blur</name>
-      <type>Main</type>
-      <value>TopNavCtrl.topNavBarSearch(false)</value>
+      <value>mgr code</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>ng-model</name>
       <type>Main</type>
-      <value>TopNavCtrl.searchData.topNavCurrSearchStr</value>
+      <value>mgrCodeVar.mgrCode</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>maxlength</name>
+      <type>Main</type>
+      <value>5</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-change</name>
+      <type>Main</type>
+      <value>typeChange()</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ng-keypress</name>
+      <type>Main</type>
+      <value>mgrCodeVar.enterKeyPress($event)</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>ng-pristine ng-untouched ng-valid ng-empty ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add ng-animate ng-empty-remove</value>
+      <value>form-control ng-pristine ng-untouched ng-valid ng-empty ng-valid-maxlength ng-not-empty-add ng-pristine-remove ng-dirty-add ng-valid-parse-add</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,6 +87,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>//*[@id=&quot;searchBox&quot;]</value>
+      <value>//*[@id=&quot;mgrInput&quot;]</value>
    </webElementProperties>
 </WebElementEntity>
